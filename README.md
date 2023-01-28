@@ -2,7 +2,6 @@
 DataVizForAll.org story template using modified Bootstrap
 
 ## Live view (replace with your own published link in Settings > Pages)
-https://datavizforall.github.io/dataviz-story-template/
-
+https://vasfalg.github.io/Parkville-Data-Story-1/
 ## Instructions
 Read steps inside the `index.html` file
