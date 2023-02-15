@@ -146,11 +146,10 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Methods</h2>
-          <p></p>
+          <p>In order to create these visualizations, I used data from the Hartford Assessor's Office, which I was able to obtain through Zoe.  This dataset, which can be found in <a href='https://docs.google.com/spreadsheets/d/1Isz-M1LfoqIUDHmBmtT9goNXuF0LMRWq/edit?usp=sharing&ouid=114760113235497940492&rtpof=true&sd=true'>this Google sheet</a>, contained many variables that I knew I would not need for this project, so I started cleaning up the data by copying the datasets to new sheets and removing the columns I did not need.  I knew that if I made a mistake and accidentally deleted a column that I did need, I did not have to worry, because I was only modifying the copies of the data, and anything I needed from the original data I could easily find. </p>
+          <p>After cleaning up the assessor's data, I downloaded a GEOJSON file of all of the land parcels in Hartford, and trimmed it to just the Parkville neighborhood using Mapshaper.  I then converted this GEOJSON file back to a CSV, so that I could modify it more easily. I then used a variety of formulas to match the Parkville parcel data with the data from the assessor's office.  Conveniently, each parcel has a GIS Pin, which was also present in the Assessor's dataset, so using VLOOKUP I was able to match each parcel with the attributes I desired.</p>
+          <p>When matching the data, I came across the issue of some GIS Pins not being matched to those in the Assessor's data.  I was able to find most of the missing parcel data by reaching back out to the Assessor's Office and sending a list of the parcels I needed.  I then manually coded the remaining missing parcels, through matching their location on my map to their location on Google Maps, finding the address, and looking up that address to find out what type of sttructure, if any, was present. </p>
 
-        
-
-         
 
         </div>
       </div>
