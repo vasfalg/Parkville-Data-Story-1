@@ -91,20 +91,19 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Who Owns Residential Property in Parkville?</h2>
-          <p>The following table shows the top residential property owners in Parkville, sorted by the total number of all parcels owned.  The reason I decided to sort the table this way, rather than by appraised value, is because several parcels have an appraised value of $0. Sorting the table by number of living units greatest to least makes this apparent on the first page of the table. Try sorting the table by the other columns (by clicking the column header) to further explore the data.</p>
-            <p>Something interesting to note is that Dorothy Apartments LLC owns the most in property value and owns the most number of living units, but does not own the largest number of parcels. </p>
+          <p>The following table shows the top residential property owners in Parkville, sorted by the total number of living units owned.  Something interesting to note from the data is that Dorothy Apartments LLC owns the most in property value and owns the second largest number of living units, but does not own the most parcels. This led me to question how the data should be sorted upon opening the table, as I grappled with what makes someone the biggest landlord.  The reason I decided to sort the table by living units, rather than by appraised value, is because several parcels have an appraised value of $0. Sorting the table by number of living units greatest to least makes this apparent on the first page of the table. Try sorting the table by the other columns (by clicking the column header) to further explore the data.</p>
+         
   
          <iframe title="Top Property Owners in Parkville" aria-label="Table" id="datawrapper-chart-2aa6d" src="https://datawrapper.dwcdn.net/2aa6d/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="3140" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
           <p>Note about the data: Same names with different spellings were modified to match each other (example: Santos Joaquim Espirito and Santo Joaquim E were changed to match Santo Joaquim Espirito) so that individuals would not be treated as multiple people by the spreadsheet formulas. </p>
-          <p>Explore the following interactive map to see where the top 10 landlords own property</p>
+           <p>Because mixed use buildings are at least partially residential, the table includes all property owners who own both strictly residential buildings and mixed use buildings.  Explore the following interactive map to see where the top 10 landlords own property</p>
           <iframe src="https://vasfalg.github.io/Parkville_Top_Landlords/"width="100%" height="600" frameborder="0" scrolling="no"></iframe>
           
           <h2>How Has Parkville's Residential Property Changed?</h2>
-          <p>The following table shows the total number of properties in the Parkville neighborhood that have changed since 2003. There are roughly 1000 total parcels of land in the Parkville neighborhood, and of these only 89 have changed in the past 20 years.  The most common change in Parkville was non-residential structures becoming a different type of non-residential structure. These non-residential changes will be discussed further below, in the "Developments" section.</p>
+          <p>The following table shows the total number of properties in the Parkville neighborhood that have changed since 2003. There are roughly 1000 total parcels of land in the Parkville neighborhood, and of these only 89 have changed in the past 20 years, which is equivalent to less than one percent off all parcels.  The most common change in Parkville was non-residential structures becoming a different type of non-residential structure. These non-residential changes will be discussed further below, in the section about commercial property.</p>
             <p>Another significant change was that 5 non-residential parcels became mixed use buildings.  The total number of living units added by this change alone is 19. However, the total number of living units in Parkville added since 2003 is only 7, because other parcel changes have reduced the number of living units.  So while the types of housing available in Parkville may be significantly different than they were 20 years ago, the total number of housing units has not changed much.</p>
         <iframe title="2003-2023 Change in Parcels" aria-label="Table" id="datawrapper-chart-gTLI2" src="https://datawrapper.dwcdn.net/gTLI2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1543" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-          <p> </p>
           <p> </p>
           <p> Explore the following map to see exactly where these above mentioned changes have occured. Notice the increase in mixed use developments, shown in dark pink.</p>
         <iframe src="https://vasfalg.github.io/Parkville_Parcels_over_time/"width="100%" height="600" frameborder="0" scrolling="no"></iframe>
@@ -120,12 +119,13 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Who Owns Commercial Property in Parkville?</h2>
-          <p class="lead">The largest Comme
+          <p class="lead">The largest commercial property owner in Parkville is also among the top residential property owners.</p>
+          <p>The below table shows the top commercial property owners in Parkville, sorted by number of parcels owned. </p>
           <iframe title="Top Commercial Property Owners in Parkville" aria-label="Table" id="datawrapper-chart-725os" src="https://datawrapper.dwcdn.net/725os/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="1085" data-external="1"></iframe>
           <h2>How Has Commercial Development Changed?</h2>
        
-          <p class="lead">Current, Future, and Unfinished Developments</p>
-          <p> Open this storymap <a href="https://vasfalg.github.io/Parkville-Storymap" target="_blank">here</a> for the interactive full size version. </p>
+         
+          <p>In the past two decades, Parkville has seen significant changes to its landscape.  The below storymap takes you through recent commercial and mixed use developments in Parkville, shown roughly from northwest to southeast. Open the full version <a href="https://vasfalg.github.io/Parkville-Storymap" target="_blank">here</a>. </p>
 
         </div>
       </div>
@@ -144,9 +144,8 @@
         
          <h2>Methods</h2>
           <p>In order to create these visualizations, I used data from the Hartford Assessor's Office, which I was able to obtain through Zoe.  This dataset, which can be found in <a href='https://docs.google.com/spreadsheets/d/1Isz-M1LfoqIUDHmBmtT9goNXuF0LMRWq/edit?usp=sharing&ouid=114760113235497940492&rtpof=true&sd=true'>this Google sheet</a>, contained many variables that I knew I would not need for this project, so I started cleaning up the data by copying the datasets to new sheets and removing the columns I did not need.  I knew that if I made a mistake and accidentally deleted a column that I did need, I did not have to worry, because I was only modifying the copies of the data, and anything I needed from the original data I could easily find. </p>
-          <p>After cleaning up the assessor's data, I downloaded a GEOJSON file of all of the land parcels in Hartford, and trimmed it to just the Parkville neighborhood using Mapshaper.  I then converted this GEOJSON file back to a CSV, so that I could modify it more easily. I then used a variety of formulas to match the Parkville parcel data with the data from the assessor's office.  Conveniently, each parcel has a GIS Pin, which was also present in the Assessor's dataset, so using VLOOKUP I was able to match each parcel with the attributes I desired.</p>
-          <p>When matching the data, I came across the issue of some GIS Pins not being matched to those in the Assessor's data.  I was able to find most of the missing parcel data by reaching back out to the Assessor's Office and sending a list of the parcels I needed.  I then manually coded the remaining missing parcels, through matching their location on my map to their location on Google Maps, finding the address, and looking up that address to find out what type of sttructure, if any, was present. </p>
-
+          <p>After cleaning up the assessor's data, I downloaded a GEOJSON file of all of the land parcels in Hartford, and trimmed it to just the Parkville neighborhood using Mapshaper.  I then converted this GEOJSON file to a CSV, so that I could modify it more easily. I then used a variety of formulas to match the Parkville parcel data with the data from the assessor's office.  Conveniently, each parcel has a GIS Pin, which was also present in the Assessor's dataset, so using VLOOKUP I was able to match each parcel with the attributes I desired.</p>
+          <p></p>
          
           
          
