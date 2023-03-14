@@ -126,7 +126,7 @@
           <h2>How Has Commercial Development Changed?</h2>
        
          
-          <p>In the past two decades, Parkville has seen significant changes to its landscape.  The below storymap takes you through recent commercial and mixed use developments in Parkville, shown roughly from northwest to southeast. Notice how most of the commercial development is focused around the northeast section of Parkville, along Bartholomew Avenue.  Open the full version <a href="https://vasfalg.github.io/Parkville-Storymap" target="_blank">here</a>. </p>
+          <p>In the past two decades, Parkville has seen significant changes to its landscape.  The below storymap takes you through recent commercial and mixed use developments in Parkville, shown roughly from northwest to southeast. Notice how most of the commercial development is focused around the northeast section of Parkville, along Bartholomew Avenue.  It should be noted that this is significantly different from how residential development has been taking place in Parkville,  as there appears to be no single specific area of the neighborhood that residential development is taking place.  Open the full version of the storymap<a href="https://vasfalg.github.io/Parkville-Storymap" target="_blank">here</a>. </p>
           <iframe src="https://vasfalg.github.io/Parkville-Storymap" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
 
         </div>
@@ -144,14 +144,11 @@
          
  
         
-         <h2>Methods</h2>
-          <p class="lead">My Process</p>
+          <h2>Methods</h2>
           <p>In order to create the maps, I used data from the Hartford Assessor's Office, which I was able to obtain through Zoe (who contacted the Assessor's Office before I began this project).  This dataset, which can be found in <a href='https://docs.google.com/spreadsheets/d/1Isz-M1LfoqIUDHmBmtT9goNXuF0LMRWq/edit?usp=sharing&ouid=114760113235497940492&rtpof=true&sd=true'>this Google sheet</a>, contained many variables that I knew I would not need for this project, so I started cleaning up the data by copying the datasets to new sheets and removing the columns I did not need.  I knew that if I made a mistake and accidentally deleted a column that I did need, I did not have to worry, because I was only modifying the copies of the data, and anything I needed from the original data I could easily find. </p>
           <p>After cleaning up the assessor's data, I downloaded a GEOJSON file of all of the land parcels in Hartford, and trimmed it to just the Parkville neighborhood using Mapshaper.  I then converted this GEOJSON file to a CSV, so that I could modify it more easily. I then used a variety of formulas to match the Parkville parcel data with the data from the assessor's office.  Conveniently, each parcel has a GIS Pin, which was also present in the Assessor's dataset, so using VLOOKUP I was able to match each parcel with the attributes I desired.</p>
           <p>To make the data tables on property ownership, I first manually cleaned up the same data I used for the maps by checking for any alternate spellings of same owners.  Some examples that come to mind are Joaquim Espirito Santo (which was mentioned above) and State of Connecticut Department of Transportation (which was sometimes abbreviated to "State of Conn Dept of Trans" and sometimes left in full).  I then used a pivot table to calculate the total number of parcels owned by each owner, as well as the sum of the appraised value of all properties owned, and the sum of all living units within owned properties.  </p>
-          <p class="lead">Challenges</p>
-          <p>One of the challenges I encountered while creating this data story was the </p>
-          
+       
          
 
         </div>
